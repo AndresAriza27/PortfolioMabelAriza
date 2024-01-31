@@ -35,9 +35,20 @@
     font-size: 35px;
     font-family: RobotoThin;
 }
+.btnDescarga {
+    padding: 0 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40px;
+}
 .btnDescarga img{
     padding: 15px;
     width: 30px;
+}
+.btnDescarga img:hover {
+    width: 35px;
+    transition: width 0.2s;
 }
 .estudios {
     justify-content: center;
@@ -46,15 +57,20 @@
     align-items: center;
 }
 .estudio {
+    border: 2px solid var(--colorRosado);
+    border-radius: 30px;
     justify-content: space-between;
-    height: 100px;
+    height: 110px;
     width: 500px;
     margin: 15px;
     background-color: var(--colorRosadoOpaco);
     text-align: center;
     align-items: center;
     display: flex;
-    border: 2px solid var(--colorGrisClaro);
+}
+.estudio:hover{
+    background-color: var(--colorRosado);
+    transition: background-color 0.7s;
 }
 .FechaLugar {
     padding: 15px;
