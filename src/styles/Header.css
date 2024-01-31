@@ -1,0 +1,30 @@
+:root {
+    --colorGris : #474747 ; 
+    --colorGrisOscuro : #363636 ;
+    --colorGrisClaro : #a8a7a7 ;
+    --colorRosado : #e8175d ;
+    --colorRosadoOpaco : #cc527a ;
+}
+@font-face {
+    font-family: NorthWell;
+    src: url(../fonts/Northwell.ttf);
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+    background-color: var(--colorRosado);
+}
+.header h3 {
+    margin-left: 20px;
+    padding-top: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-family: NorthWell;
+}

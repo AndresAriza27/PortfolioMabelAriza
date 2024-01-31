@@ -1,0 +1,74 @@
+:root {
+    --colorGris : #474747 ; 
+    --colorGrisOscuro : #363636 ;
+    --colorGrisClaro : #a8a7a7 ;
+    --colorRosado : #e8175d ;
+    --colorRosadoOpaco : #cc527a ;
+}
+@font-face {
+    font-family: NorthWell;
+    src: url(../fonts/Northwell.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+.studies {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.studies h3{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-family: RobotoThin;
+}
+.btnDescarga img{
+    padding: 15px;
+    width: 30px;
+}
+.estudios {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+.estudio {
+    margin: 15px;
+    background-color: var(--colorRosadoOpaco);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid var(--colorGrisClaro);
+}
+.FechaLugar {
+    padding: 15px;
+}
+.TituloInstitucion {
+    padding: 15px;
+}
+.Titulo {
+    font-family: RobotoRegular;
+    font-size: 18px;
+}
+.Institucion {
+    font-family: RobotoThin;
+}
+.fecha {
+    font-family: RobotoRegular;
+}
+.lugar {
+    font-family: RobotoThin;
+}
