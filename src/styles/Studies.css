@@ -30,6 +30,7 @@
     align-items: center;
 }
 .studies h3{
+    text-align: center;
     margin: 0;
     padding: 0;
     font-size: 35px;
@@ -45,6 +46,7 @@
 .btnDescarga img{
     padding: 15px;
     width: 30px;
+    transition: width 0.1s;
 }
 .btnDescarga img:hover {
     width: 35px;
@@ -67,6 +69,7 @@
     text-align: center;
     align-items: center;
     display: flex;
+    transition: background-color 0.7s;
 }
 .estudio:hover{
     background-color: var(--colorRosado);
@@ -90,4 +93,25 @@
 }
 .lugar {
     font-family: RobotoThin;
+}
+
+@media (max-width: 768px) {
+    .estudio {
+        justify-content: center;
+        height: 130px;
+        width: 315px;
+        margin: 10px;
+        display: flex;
+    }
+    .FechaLugar {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .TituloInstitucion {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .Institucion {
+        padding: 5px 0;
+    }
 }

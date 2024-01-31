@@ -22,7 +22,28 @@
     src: url(../fonts/Roboto-Black.ttf);
 }
 .Jumbotron {
+    margin-left: 10% ;
+    height: 500px;
+    justify-content: center;
     display: flex;
-    width: 100%;
-    background-color: #a8a7a7;
+    width: 80%;
+}
+.JmboTxt {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.JmboTxt h3 {
+    display: flex;
+    margin: 0;
+    padding: 15px 0 0 0 ;
+    font-size: 75px;
+    font-family: NorthWell;
+    border-bottom: 2px solid var(--colorGrisClaro);
+}
+.JmboTxt span {
+    padding: 10px 0;
+    font-size: 28px;
+    font-family: RobotoThin;
 }
