@@ -22,6 +22,7 @@
     src: url(../fonts/Roboto-Black.ttf);
 }
 .Jumbotron {
+    text-align: center;
     margin-left: 10% ;
     height: 500px;
     justify-content: center;
@@ -29,12 +30,14 @@
     width: 80%;
 }
 .JmboTxt {
+    text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .JmboTxt h3 {
+    text-align: center;
     display: flex;
     margin: 0;
     padding: 15px 0 0 0 ;
