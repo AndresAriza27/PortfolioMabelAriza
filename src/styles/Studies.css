@@ -46,6 +46,9 @@
     align-items: center;
 }
 .estudio {
+    justify-content: space-between;
+    height: 100px;
+    width: 500px;
     margin: 15px;
     background-color: var(--colorRosadoOpaco);
     text-align: center;
