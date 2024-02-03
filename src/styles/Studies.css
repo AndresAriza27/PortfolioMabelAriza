@@ -98,6 +98,12 @@
 }
 
 @media (max-width: 768px) {
+    #estone {
+        height: 225px;
+    }
+    #estwo {
+        height: 275px;
+    }
     .estudio {
         justify-content: center;
         height: 130px;
@@ -116,4 +122,5 @@
     .Institucion {
         padding: 5px 0;
     }
+    
 }

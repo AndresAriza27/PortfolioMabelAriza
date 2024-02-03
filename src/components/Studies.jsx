@@ -54,7 +54,7 @@ export function Studies () {
             </div>
             <h3>Estudios Complementarios</h3>
             <div className="estudios">
-                <div className="estudio">
+                <div className="estudio" id='estone'>
                     <div className="FechaLugar">
                         <div className="fecha">12/11/2021</div>
                         <div className="lugar">Bogotá</div>
@@ -69,7 +69,7 @@ export function Studies () {
                         </a>
                     </div>
                 </div>
-                <div className="estudio">
+                <div className="estudio" id='estwo'>
                     <div className="FechaLugar">
                         <div className="fecha">21/10/2021</div>
                         <div className="lugar">Bogotá</div>
@@ -189,12 +189,12 @@ export function Studies () {
                         </a>
                     </div>
                 </div>
-                <div className="estudio">
+                <div className="estudio" id='estone'>
                     <div className="FechaLugar">
                         <div className="fecha">06/10/2023</div>
                         <div className="lugar">Bogotá</div>
                     </div>
-                    <div className="TituloInstitucion">
+                    <div className="TituloInstitucion" >
                         <div className="Titulo">Sistemas de información de educación superior, asistencias técnicas y reuniones</div>
                         <div className="Institucion">SNIES</div>
                     </div>
