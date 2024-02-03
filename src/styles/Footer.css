@@ -1,0 +1,44 @@
+:root {
+    --colorGris : #474747 ; 
+    --colorGrisOscuro : #363636 ;
+    --colorGrisClaro : #a8a7a7 ;
+    --colorRosado : #e8175d ;
+    --colorRosadoOpaco : #cc527a ;
+}
+@font-face {
+    font-family: NorthWell;
+    src: url(../fonts/Northwell.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+.footer {
+    border-top: 2px solid #e8175d;
+    height: 200px;
+    width: 100%;
+    background-color: var(--colorGrisOscuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact img {
+    padding: 15px;
+
+    width: 45px;
+}
