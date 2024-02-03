@@ -21,7 +21,12 @@
     font-family: RobotoBlack;
     src: url(../fonts/Roboto-Black.ttf);
 }
+.bkJtron {
+    width: 100%;
+    background-color: var(--colorGris);
+}
 .Jumbotron {
+    color: #fff;
     text-align: center;
     margin-left: 10% ;
     height: 500px;

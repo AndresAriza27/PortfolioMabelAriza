@@ -23,6 +23,8 @@
 }
 
 .studies {
+    color: #ffff;
+    background-color: var(--colorGris);
     flex-direction: column;
     display: flex;
     width: 100%;

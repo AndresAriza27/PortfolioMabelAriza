@@ -1,0 +1,108 @@
+:root {
+    --colorGris : #474747 ; 
+    --colorGrisOscuro : #363636 ;
+    --colorGrisClaro : #a8a7a7 ;
+    --colorRosado : #e8175d ;
+    --colorRosadoOpaco : #cc527a ;
+}
+@font-face {
+    font-family: NorthWell;
+    src: url(../fonts/Northwell.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+.Jobs {
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colorGris);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Jobs h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: RobotoThin;
+}
+.jobsCont {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.job {
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 30px;
+    border: 2px solid var(--colorRosado);
+    padding: 10px;
+    background-color: var(--colorGris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dateSite {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+}
+.jobDs {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.jobDate, .jobSite, .jobCompany {
+    font-size: 17px;
+    font-family: RobotoRegular;
+}
+.jobWork {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid var(--colorRosado);
+    border-bottom: 2px solid var(--colorRosado);
+    font-size: 18px;
+    font-family: RobotoBlack;
+}
+.jobDescription {
+    text-align: justify;
+    width: 90%;
+    font-size: 17px;
+    font-family: RobotoThin;
+}
+#udcaCoordinadora .jobDescription{
+    padding: 15px;
+}
+@media (max-width: 768px) {
+    .jobsCont {
+        width: 100%;
+    }
+    .jobDescription {
+        width: 95%;
+    }
+    .dateSite {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .jobDs {
+        text-align: center;
+    }
+}
