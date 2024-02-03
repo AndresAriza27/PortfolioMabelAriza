@@ -1,5 +1,4 @@
 import iconDwl from '../imgs/iconDownload.png'
-
 import '../styles/Studies.css'
 
 export function Studies () {
@@ -17,7 +16,7 @@ export function Studies () {
                         <div className="Institucion">Institución Universitaria Politécnico Grancolombiano</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/cSnods">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
@@ -32,7 +31,7 @@ export function Studies () {
                         <div className="Institucion">SENA</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/3Atbci">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
@@ -57,60 +56,165 @@ export function Studies () {
             <div className="estudios">
                 <div className="estudio">
                     <div className="FechaLugar">
-                        <div className="fecha">01/07/2005</div>
+                        <div className="fecha">12/11/2021</div>
                         <div className="lugar">Bogotá</div>
                     </div>
                     <div className="TituloInstitucion">
-                        <div className="Titulo">Fundamentos ISO 9001</div>
-                        <div className="Institucion">Universidad Manuela Beltrán</div>
+                        <div className="Titulo">Tendencias y retos en empleabilidad y emprendimiento</div>
+                        <div className="Institucion">Asociación Colombiana de Universidades y La Red Nacional de Comunidades de Graduados -Renace -</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/qc37VG">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
                 </div>
                 <div className="estudio">
                     <div className="FechaLugar">
-                        <div className="fecha">29/10/2008</div>
+                        <div className="fecha">21/10/2021</div>
                         <div className="lugar">Bogotá</div>
+                    </div>
+                    <div className="TituloInstitucion">
+                        <div className="Titulo">Desafíos y oportunidades de la extensión universitaria y su aporte a la reactivación económica del país</div>
+                        <div className="Institucion">Red de Extensión Universitaria del Nodo Caribe - ASCUN</div>
+                    </div>
+                    <div className="btnDescarga">
+                        <a href="https://acortar.link/1TcPXp">
+                            <img src={ iconDwl } alt="Download" />
+                        </a>
+                    </div>
+                </div>
+                <div className="estudio">
+                    <div className="FechaLugar">
+                        <div className="fecha">26/06/2009</div>
+                        <div className="lugar">Chía</div>
+                    </div>
+                    <div className="TituloInstitucion">
+                        <div className="Titulo">Sensibilidad y Creatividad en el Servicio</div>
+                        <div className="Institucion">Asociación de Empresarios de Chía</div>
+                    </div>
+                    <div className="btnDescarga">
+                        <a href="https://acortar.link/LqHiW6">
+                            <img src={ iconDwl } alt="Download" />
+                        </a>
+                    </div>
+                </div>
+                <div className="estudio">
+                    <div className="FechaLugar">
+                        <div className="fecha">18/10/2008</div>
+                        <div className="lugar">Aguachíca</div>
                     </div>
                     <div className="TituloInstitucion">
                         <div className="Titulo">Salud Ocupacional</div>
-                        <div className="Institucion">Universidad Manuela Beltrán</div>
+                        <div className="Institucion">SENA</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/xXMu5Y">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
                 </div>
                 <div className="estudio">
                     <div className="FechaLugar">
-                        <div className="fecha">29/08/2010</div>
+                        <div className="fecha">13/08/2010</div>
                         <div className="lugar">Bogotá</div>
                     </div>
                     <div className="TituloInstitucion">
-                        <div className="Titulo">Office Basico: Word, Excel y PowerPoint</div>
-                        <div className="Institucion">Universidad Manuela Beltrán</div>
+                        <div className="Titulo">Manejo Herramientas Microsoft Office 2007: Excel</div>
+                        <div className="Institucion">SENA</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/FCUobl">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
                 </div>
                 <div className="estudio">
                     <div className="FechaLugar">
-                        <div className="fecha">17/07/2018</div>
+                        <div className="fecha">07/10/2020</div>
                         <div className="lugar">Bogotá</div>
                     </div>
                     <div className="TituloInstitucion">
-                        <div className="Titulo">Redacción y Ortografía</div>
-                        <div className="Institucion">Sena</div>
+                        <div className="Titulo">Excel Intermedio</div>
+                        <div className="Institucion">SENA</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/y7yzgQ">
+                            <img src={ iconDwl } alt="Download" />
+                        </a>
+                    </div>
+                </div>
+                <div className="estudio">
+                    <div className="FechaLugar">
+                        <div className="fecha">05/04/2018</div>
+                        <div className="lugar">Bogotá</div>
+                    </div>
+                    <div className="TituloInstitucion">
+                        <div className="Titulo">Servicio al Cliente en la Organización</div>
+                        <div className="Institucion">SENA</div>
+                    </div>
+                    <div className="btnDescarga">
+                        <a href="https://acortar.link/DANoGu">
+                            <img src={ iconDwl } alt="Download" />
+                        </a>
+                    </div>
+                </div>
+                <div className="estudio">
+                    <div className="FechaLugar">
+                        <div className="fecha">05/06/2017</div>
+                        <div className="lugar">Bogotá</div>
+                    </div>
+                    <div className="TituloInstitucion">
+                        <div className="Titulo">Comunicación Asertiva y Efectiva en Equipos de Trabajo</div>
+                        <div className="Institucion">SENA</div>
+                    </div>
+                    <div className="btnDescarga">
+                        <a href="https://acortar.link/Zdd7Mx">
+                            <img src={ iconDwl } alt="Download" />
+                        </a>
+                    </div>
+                </div>
+                <div className="estudio">
+                    <div className="FechaLugar">
+                        <div className="fecha">05/06/2017</div>
+                        <div className="lugar">Bogotá</div>
+                    </div>
+                    <div className="TituloInstitucion">
+                        <div className="Titulo">Finanzas Personales</div>
+                        <div className="Institucion">UNIVERSIDAD MANUELA BELTRÁN</div>
+                    </div>
+                    <div className="btnDescarga">
+                        <a href="https://acortar.link/mQY87T">
+                            <img src={ iconDwl } alt="Download" />
+                        </a>
+                    </div>
+                </div>
+                <div className="estudio">
+                    <div className="FechaLugar">
+                        <div className="fecha">06/10/2023</div>
+                        <div className="lugar">Bogotá</div>
+                    </div>
+                    <div className="TituloInstitucion">
+                        <div className="Titulo">Sistemas de información de educación superior, asistencias técnicas y reuniones</div>
+                        <div className="Institucion">SNIES</div>
+                    </div>
+                    <div className="btnDescarga">
+                        <a href="https://acortar.link/xDdjc7">
+                            <img src={ iconDwl } alt="Download" />
+                        </a>
+                    </div>
+                </div>
+                <div className="estudio">
+                    <div className="FechaLugar">
+                        <div className="fecha">21/06/2010</div>
+                        <div className="lugar">Bogotá</div>
+                    </div>
+                    <div className="TituloInstitucion">
+                        <div className="Titulo">Finanzas Personales</div>
+                        <div className="Institucion">Universidad Manuela Beltrán </div>
+                    </div>
+                    <div className="btnDescarga">
+                        <a href="https://acortar.link/WHdl6T">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
@@ -122,70 +226,40 @@ export function Studies () {
                     </div>
                     <div className="TituloInstitucion">
                         <div className="Titulo">Comunicación Asertiva y efectiva en equipos de Trabajo</div>
-                        <div className="Institucion">Sena</div>
+                        <div className="Institucion">SENA</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/Zdd7Mx">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
                 </div>
                 <div className="estudio">
                     <div className="FechaLugar">
-                        <div className="fecha">29/06/2009</div>
-                        <div className="lugar">Chía</div>
-                    </div>
-                    <div className="TituloInstitucion">
-                        <div className="Titulo">Sensibilidad y Creatividad en el Servicio</div>
-                        <div className="Institucion">Asociación de empresarios de Chía</div>
-                    </div>
-                    <div className="btnDescarga">
-                        <a href="#">
-                            <img src={ iconDwl } alt="Download" />
-                        </a>
-                    </div>
-                </div>
-                <div className="estudio">
-                    <div className="FechaLugar">
-                        <div className="fecha">15/05/2010</div>
+                        <div className="fecha">22/03/2021</div>
                         <div className="lugar">Bogotá</div>
                     </div>
                     <div className="TituloInstitucion">
-                        <div className="Titulo">Finanzas Personales</div>
-                        <div className="Institucion">Universidad Manuela Beltrán</div>
+                        <div className="Titulo">Pruebas Psicológicas</div>
+                        <div className="Institucion">Universidad de Cataluña</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/SPQjsA">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>
                 </div>
                 <div className="estudio">
                     <div className="FechaLugar">
-                        <div className="fecha">08/06/2018</div>
+                        <div className="fecha">04/2021</div>
                         <div className="lugar">Bogotá</div>
                     </div>
                     <div className="TituloInstitucion">
-                        <div className="Titulo">Diplomado en Gestión de Talento Humano</div>
-                        <div className="Institucion">Institución Universitaria Politécnico Grancolombiano</div>
+                        <div className="Titulo">Ideación y creatividad desde cero</div>
+                        <div className="Institucion">Crehana</div>
                     </div>
                     <div className="btnDescarga">
-                        <a href="#">
-                            <img src={ iconDwl } alt="Download" />
-                        </a>
-                    </div>
-                </div>
-                <div className="estudio">
-                    <div className="FechaLugar">
-                        <div className="fecha">Actualmente</div>
-                        <div className="lugar">-</div>
-                    </div>
-                    <div className="TituloInstitucion">
-                        <div className="Titulo">Diplomado en Pruebas Psicológicas</div>
-                        <div className="Institucion">Corporación Universitaria de Cataluña</div>
-                    </div>
-                    <div className="btnDescarga">
-                        <a href="#">
+                        <a href="https://acortar.link/SPQjsA">
                             <img src={ iconDwl } alt="Download" />
                         </a>
                     </div>

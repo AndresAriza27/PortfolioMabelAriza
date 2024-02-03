@@ -1,0 +1,75 @@
+:root {
+    --colorGris : #474747 ; 
+    --colorGrisOscuro : #363636 ;
+    --colorGrisClaro : #a8a7a7 ;
+    --colorRosado : #e8175d ;
+    --colorRosadoOpaco : #cc527a ;
+}
+@font-face {
+    font-family: NorthWell;
+    src: url(../fonts/Northwell.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: RobotoBlack;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+.About {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    background-color: var(--colorGrisOscuro);
+    color: #fff;
+    padding-bottom: 20px;
+}
+.About h3 {
+    font-family: RobotoThin;
+    font-size: 35px;
+}
+.About p {
+    border-radius: 50px 0 50px 0;
+    padding: 15px;
+    border: 2px solid var(--colorRosado);
+    text-align: center;
+    font-size: 19px;
+    font-family: RobotoThin;
+    width: 80%;
+}
+.skills {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills span {
+    font-family: RobotoRegular;
+}
+.skill {
+    margin: 0 20px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 2px solid var(--colorRosado);
+    border-radius: 60px;
+    font-size: 18px;
+}
+.skill ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: circle;
+    font-family: RobotoThin;
+    font-size: 17px;
+}
