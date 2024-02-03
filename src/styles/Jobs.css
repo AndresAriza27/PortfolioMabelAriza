@@ -26,7 +26,7 @@
     color: #fff;
     align-items: center;
     justify-content: center;
-    background-color: var(--colorGris);
+    background-color: var(--colorGrisOscuro);
     width: 100%;
     display: flex;
     flex-direction: column;

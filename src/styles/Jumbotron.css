@@ -23,9 +23,13 @@
 }
 .bkJtron {
     width: 100%;
-    background-color: var(--colorGris);
+    background-color: var(--colorGrisOscuro);
 }
 .Jumbotron {
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/bgJumbo.png);
     color: #fff;
     text-align: center;
     margin-left: 10% ;
@@ -35,6 +39,8 @@
     width: 80%;
 }
 .JmboTxt {
+    margin-top: 250px;
+    position: absolute;
     text-align: center;
     align-items: center;
     display: flex;
@@ -42,6 +48,10 @@
     justify-content: center;
 }
 .JmboTxt h3 {
+    text-shadow: 2px 0px 0px black,
+                 0px 2px 0px black,
+                 -2px 0px 0px black,
+                 0px -2px 0px black;
     text-align: center;
     display: flex;
     margin: 0;
@@ -51,7 +61,30 @@
     border-bottom: 2px solid var(--colorGrisClaro);
 }
 .JmboTxt span {
+    text-shadow: 2px 0px 0px black,
+                 0px 2px 0px black,
+                 -2px 0px 0px black,
+                 0px -2px 0px black;
     padding: 10px 0;
     font-size: 28px;
     font-family: RobotoThin;
+}
+.Jumbotron img {
+    position: relative;
+    border-radius: 0 0 150px 150px ;
+}
+@media (max-width: 768px) {
+    .bkJtron {
+        height: 550px;
+    }
+    .Jumbotron {
+        margin-left: 0;
+        width: 100%;
+    }
+    .JmboTxt {
+        margin-top: 200px;
+    }
+    .Jumbotron h3 {
+        
+    }
 }
